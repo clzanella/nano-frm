@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nano-frm.iml" filepath="$PROJECT_DIR$/.idea/modules/nano-frm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nano-frm_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nano-frm_main.iml" group="nano-frm" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nano-frm_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nano-frm_test.iml" group="nano-frm" />
+    </modules>
+  </component>
+</project>
