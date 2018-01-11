@@ -150,6 +150,23 @@ public class Main {
 //                ->limit(10,5);
 //        });
 //
+//        // PHP : using serializable functions
+//        // http://www.htmlist.com/development/extending-php-5-3-closures-with-serialization-and-reflection/
+//        Queryable $q = FRM::query(function(QueryBuilder $b, Functions $f) use($externalParam) {
+//                return $b->from(Pessoa::CLASS_NAME)
+//                ->join(Endereco::CLASS_NAME)
+//                    ->on( function(Pessoa $p, Endereco $e) use($f) {
+//                    return $e->getPessoaId() === $p->getId() && $e->isPrincipal();
+//                })
+//                ->where( function(Pessoa $p, Endereco $e) use($f) {
+//                    return $e->isPrincipal() && strtolower($p->getNome()) === strtolower($externalParam);
+//                })
+//                ->order( function(Pessoa $p, Endereco $e) use($f) {
+//                    $f->by($f->asc($p->getNome()), $f->desc($e->getLogradouro());
+//                })
+//                ->limit(10,5);
+//            });
+//
 //
 //        // C#
 //        Queryable<Pessoa> q3 = FRM.Query( (b) => b.From<Pessoa>()
